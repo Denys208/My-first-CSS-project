@@ -2,63 +2,61 @@ body {
     font-family: Arial;
 }
 
-.header__title {
+.header__logo {
     width: 137px;
     height: 30px;
-    margin-left: 375px;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    padding: 25px;;
     
 }
 
-.header__back-link {
+.header__back {
     font-size: 18px;
     color: hsla(246, 100%, 58%, 1);
     text-decoration: none;
     width: 160px;
     height: 23px;
-    margin-left: 375px;
+    padding: 25px;;
    
     
 }
 
-.header__back-link:hover {
+.header__back:hover {
     text-decoration: underline;
 }
 
 .main__course-title {
-  width: 1170px;
   color: hsla(246, 100%, 58%, 1);
   font-weight: 700;
   font-size: 60px;
   line-height: 1;
-  margin-left: 375px; 
-  margin-top: 25px;
+ padding: 25px;;
 }
 
-.main__container {
+.container {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-.main__modules-grid {
+
+.modules--grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
 }
 
-.main__module-card {  
+.module-card {  
   position: relative;
   box-shadow: 0 46px 45px rgba(0,0,0,0.08);
+  padding: 25px;
 }
 
-.main__module-card img {
-  width: 572px;
+.module-card__image {
+  width: 100%;
   height: 180px;
   object-fit: cover;
 }
 
-.main__module-card h3 {
+.module-card__title {
   font-size: 40px;
   font-weight: 700;
   color: hsla(246, 100%, 58%, 1);
@@ -68,7 +66,7 @@ body {
 
 }
 
-.main__module-card p {
+.module-card__list {
   margin: 0 20px 40px;
   line-height: 165%;
   margin-left: 25px;
@@ -78,7 +76,7 @@ body {
 
 }
 
-.main__module-card-number {
+.module-card__number {
   position: absolute;
   right: 25px;
   bottom: 25px;
